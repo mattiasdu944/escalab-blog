@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ICONOS IONICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="./Css/style.css">
+
     <title>Escalab Blog</title>
 </head>
+
 <body>
-    
+    <!-- Header -->
+    <header class="header__home">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="navbar__container ">
+                <div class="nav__logo">
+                    <img src="./Images/MacBook.png" alt="">
+                    <a href="#">Escalab Blog</a>
+                </div>
+
+                <ul class="navbar__menu">
+                    <li class="navbar__link">
+                        <a href="#informacion">Home</a>
+                    </li>
+                    <li class="navbar__link">
+                        <a href="#">Info</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bienvenida container section" id="bienvenida">
+            <div class="bienvenida__img">
+                <img src="./Images/user.png" alt="foto">
+            </div>
+            <div class="bienvenida__content">
+                <div class="bienvenida__content-title">
+                    <h1>
+                        ¡Hola! Bienvenido a mi Blog
+                    </h1>
+                    <h2>
+                        ¡Aprende Programacion en este Blog!
+                    </h2>
+                </div>
+
+                <div class="bienvenida__conten-text">
+                    <p>
+                        En este Blog encontraras las ultimas novedades <br>
+                        sobre el mundo de la programacion y una variedad <br>
+                        de cursos y tips totalmente gratuitos!
+                    </p>
+                </div>
+
+                <a href="#" class="bienvenida__btn">
+                    Ver los blogs
+                </a>
+            </div>
+            <span class="separation_line"></span>
+        </section>
+
+        <section class="informacion section container" id="informacion">
+            <div class="informacion__title">
+                <h1>Informacion</h1>
+            </div>
+            <div class="informacion__content">
+                <p>
+                    Soy Desarrollador FrontEnd y Backend <br>
+                    He trabajado para empresas como Samsung, Huawei, CyberGlobalNet <br>
+                    Actualemte doy clases privadas en linea <br> y ayudo a universitarios con proyectos.
+                </p>
+            </div>
+            <ul class="informacion__redes_sociales">
+                <li class="informacion__icon">
+                    <a href="https://www.facebook.com/matti.duarte.99" target="_blank">
+                        <img src="./Images/Facebook.png" alt="">
+                    </a>
+                </li>
+                <li class="informacion__icon">
+                    <a href="https://www.instagram.com/matti_alexandre/?hl=es" target="_blank">
+                        <img src="./Images/Instagram Circle.png" alt="">
+                    </a>
+                </li>
+                <li class="informacion__icon">
+                    <a href="https://www.linkedin.com/in/mattias-alexandre-duarte-aparicio/" target="_blank">
+                       <img src="./Images/LinkedIn Circled.png" alt="">
+                    </a>
+                </li>
+                <li class="informacion__icon">
+                    <a href="https://github.com/mattiasdu944" target="_blank">
+                        <img src="./Images/GitHub.png" alt="">
+                    </a>
+                </li>
+            </ul>
+            <span class="separation_line"></span>
+        </section>
+    </main>
 </body>
+
 </html>
